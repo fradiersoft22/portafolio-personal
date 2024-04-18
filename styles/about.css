@@ -1,0 +1,63 @@
+.contenedor-precentacion{
+    width: Fixed (1,136px)px;
+    height: Hug (368px)px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    display: flex;
+    
+    }
+    .precentacion{
+    width: Fixed (751px)px;
+    height: Hug (246px)px;
+    gap: 24px;
+    opacity: 0px;
+    padding-left: 120px;
+    
+    }
+    
+    .texto-precentacion{
+    height: Hug (24px)px;
+    gap: 32px;
+    opacity: 0px;
+    display: flex;
+    padding-top: 30px;
+    
+    }
+    
+    .img-precentacion{
+    width: 368px;
+    height: 368px;
+    gap: 0px;
+    opacity: 0px;
+    width: 368px;
+    height: 368px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 40px;
+     }
+    
+    .links-redes{
+    width: Hug (97px)px;
+    height: Hug (24px)px;
+    gap: 4px;
+    opacity: 0px;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    text-align: left;
+    color: #464646;
+    }
+    
+    .img-vector{
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 23.31px;
+    gap: 0px;
+    opacity: 0px;
+    scale: -135 deg;
+    color: #464646;
+    }
