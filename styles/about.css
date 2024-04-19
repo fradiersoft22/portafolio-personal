@@ -1,63 +1,123 @@
-.contenedor-precentacion{
-    width: Fixed (1,136px)px;
-    height: Hug (368px)px;
-    gap: 0px;
-    justify-content: space-between;
-    opacity: 0px;
+.img-precentacion{
     display: flex;
-    
-    }
-    .precentacion{
-    width: Fixed (751px)px;
-    height: Hug (246px)px;
-    gap: 24px;
-    opacity: 0px;
-    padding-left: 120px;
-    
-    }
-    
-    .texto-precentacion{
-    height: Hug (24px)px;
-    gap: 32px;
-    opacity: 0px;
+    justify-content: center;
+}
+.texto-precentacion{
     display: flex;
-    padding-top: 30px;
-    
-    }
-    
-    .img-precentacion{
-    width: 368px;
-    height: 368px;
-    gap: 0px;
-    opacity: 0px;
-    width: 368px;
-    height: 368px;
-    gap: 0px;
-    opacity: 0px;
-    margin-right: 40px;
-     }
-    
-    .links-redes{
-    width: Hug (97px)px;
-    height: Hug (24px)px;
-    gap: 4px;
-    opacity: 0px;
-    text-decoration: none;
+    padding-top: 10px;
     font-family: Raleway;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18.78px;
-    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    flex-wrap: nowrap;
+    }
+    .desc-precentacion{
+    font-family: Raleway;   
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.83px;
+    text-align: center;
     color: #464646;
     }
-    
+    .link-precentacion{
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+    }
+    .links-redes{
+        text-decoration: none;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.78px;
+        text-align: left;
+        color: #464646;
+        }
     .img-vector{
-    width: 16px;
-    height: 16px;
-    top: 12px;
-    left: 23.31px;
-    gap: 0px;
-    opacity: 0px;
-    scale: -135 deg;
-    color: #464646;
+            width: 16px;
+            height: 16px;
+            top: 12px;
+            left: 23.31px;
+            gap: 0px;
+            opacity: 0px;
+            scale: -135 deg;
+            color: #464646;
+            }
+
+        @media (min-width:1024px) {
+            .contenedor-precentacion{
+            width: Fixed (1,136px)px;
+            height: Hug (368px)px;
+            gap: 0px;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: row-reverse;
+            }
+            .precentacion{
+            width: Fixed (751px)px;
+            height: Hug (246px)px;
+            gap: 24px;
+            opacity: 0px;
+            padding-left: 120px;
+            }
+            
+            .texto-precentacion{
+            height: Hug (24px)px;
+            gap: 32px;
+            opacity: 0px;
+            display: flex;
+            padding-top: 30px;
+            font-family: Raleway;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 61.05px;
+            text-align: left;
+            flex-wrap: nowrap;
+            }
+            .desc-precentacion{
+            font-family: Raleway;   
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 25.83px;
+            text-align: left;
+            color: #464646;
+            }
+            
+            .img-precentacion{
+            width: 368px;
+            height: 368px;
+            gap: 0px;
+            opacity: 0px;
+            width: 368px;
+            height: 368px;
+            gap: 0px;
+            opacity: 0px;
+            margin-right: 40px;
+             }
+            .link-precentacion{
+                display: flex;
+                gap: 20px;
+            }
+            .links-redes{
+            opacity: 0px;
+            text-decoration: none;
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 18.78px;
+            text-align: right;
+            color: #464646;
+            }
+            
+            .img-vector{
+            width: 16px;
+            height: 16px;
+            top: 12px;
+            left: 23.31px;
+            gap: 0px;
+            opacity: 0px;
+            scale: -135 deg;
+            color: #464646;
+            }
     }
